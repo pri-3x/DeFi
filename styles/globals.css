@@ -1,0 +1,19 @@
+@import url("../public/assets/libs/swiper/swiper-bundle.min.css");
+@import url("../public/assets/css/style.min.css");
+/* @import url("../public/assets/css/icons.min.css"); */
+@import url("../public/assets/libs/aos/aos.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.new_loader {
+  z-index: 1111111111111111111111;
+  top: 50%;
+  left: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
